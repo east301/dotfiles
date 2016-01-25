@@ -1,0 +1,17 @@
+###
+### .gitconfig
+###
+
+[user]
+    name = east301
+    email = me@east301.net
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[pager]
+   log = diff-highlight | less
+   show = diff-highlight | less
+   diff = diff-highlight | less
