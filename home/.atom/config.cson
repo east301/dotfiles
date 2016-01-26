@@ -1,0 +1,59 @@
+"*":
+  "autocomplete-plus":
+    autoActivationDelay: 0
+    backspaceTriggersAutocomplete: true
+    defaultProvider: "Fuzzy"
+    minimumWordLength: 1
+  "block-cursor":
+    global:
+      blinkOff: {}
+      blinkOn: {}
+  core:
+    disabledPackages: [
+      "background-tips"
+      "pigments"
+      "metrics"
+    ]
+    ignoredNames: [
+      "*.pyc"
+      "Thumbs.db"
+      ".DS_Store"
+      "._*"
+      ".git"
+      ".hg"
+      ".svn"
+      "__pycache__"
+    ]
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+  docblockr: {}
+  editor:
+    fontSize: 13
+    invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "editor-background":
+    box3d: {}
+    image: {}
+    other: {}
+    text: {}
+    video: {}
+  linter: {}
+  minimap: {}
+  "omnisharp-atom":
+    codeLens: false
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false
+  whitespace: {}
+".ini.source":
+  editor:
+    preferredLineLength: 100
