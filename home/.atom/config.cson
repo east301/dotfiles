@@ -25,7 +25,7 @@
       "__pycache__"
     ]
     themes: [
-      "atom-light-ui"
+      "one-light-ui"
       "atom-light-syntax"
     ]
   docblockr: {}
