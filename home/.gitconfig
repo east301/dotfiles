@@ -2,10 +2,6 @@
 ### .gitconfig
 ###
 
-[user]
-    name = east301
-    email = me@east301.net
-
 [color]
     diff = auto
     status = auto
