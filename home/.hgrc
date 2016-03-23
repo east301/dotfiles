@@ -2,10 +2,6 @@
 ### .hgrc
 ###
 
-[ui]
-username = east301 <me@east301.net>
-verbose = True
-
 [extensions]
 color =
 extdiff =
