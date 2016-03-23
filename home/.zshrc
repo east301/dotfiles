@@ -28,7 +28,7 @@ done
 
 zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:command, of:"git/diff-highlight"
 
-zplug "east301/fe256259eeddb6da1643", from:command, of:use-peco-to-search-command-history.sh
+zplug "east301/fe256259eeddb6da1643", from:gist, of:use-peco-to-search-command-history.sh
 
 
 # ================================================================================
