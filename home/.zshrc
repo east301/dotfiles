@@ -9,8 +9,6 @@ source $HOME/.zplug/zplug
 # oh-my-zsh
 # ================================================================================
 
-zplug "themes/", from:oh-my-zsh
-
 plugins=(
     "bower" "git" "common-aliases" "django" "docker-compose" "docker" "extract" "git"
     "gradle" "mosh" "mvn" "npm" "nyan" "osx" "pip" "python" "rsync" "ruby" "screen"
@@ -28,6 +26,7 @@ done
 
 zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:command, of:"git/diff-highlight"
 
+zplug "S1cK94/minimal", as:plugin, do:"chmod +x *.zsh*", of:"*.zsh*"
 zplug "east301/fe256259eeddb6da1643", from:gist, of:use-peco-to-search-command-history.sh
 
 
