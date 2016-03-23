@@ -10,9 +10,9 @@ source $HOME/.zplug/zplug
 # ================================================================================
 
 plugins=(
-    "bower" "git" "common-aliases" "django" "docker-compose" "docker" "extract" "git"
-    "gradle" "mosh" "mvn" "npm" "nyan" "osx" "pip" "python" "rsync" "ruby" "screen"
-    "sudo" "systemadmin" "systemd" "vagrant" "virtualenv"
+    "git" "common-aliases" "django" "docker-compose" "docker" "extract" "git"
+    "gradle" "macports" "npm" "nyan" "osx" "pip" "python" "rsync" "ruby" "screen"
+    "vagrant"
 )
 
 for plugin in $plugins; do
