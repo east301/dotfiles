@@ -8,4 +8,8 @@ source $HOME/.homesick/repos/homeshick/homeshick.sh
 homeshick clone east301/dotfiles
 homeshick cd dotfiles
 git submodule update --init --recursive
-echo "y" | homeshick symlink --force
+
+# apply customizations manually..
+echo
+echo "[INFO] Run the following command manually to apply changes"
+echo "[INFO]  $ source $HOME/.homesick/repos/homeshick/homeshick.sh && homeshick symlink"
