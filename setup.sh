@@ -8,4 +8,4 @@ source $HOME/.homesick/repos/homeshick/homeshick.sh
 homeshick clone east301/dotfiles
 homeshick cd dotfiles
 git submodule update --init --recursive
-homeshick symlink --batch --force
+echo "y" | homeshick symlink --force
