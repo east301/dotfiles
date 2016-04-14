@@ -42,3 +42,12 @@ if ! zplug check; then
 fi
 
 zplug load
+
+
+# ================================================================================
+# loads local settings if exists
+# ================================================================================
+
+if [ -f $HOME/.zshrc.local ]; then
+    source $HOME/.zshrc.local
+fi
