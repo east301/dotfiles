@@ -24,6 +24,7 @@ done
 # ================================================================================
 
 zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:command, of:"git/diff-highlight"
+zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:plugin,  of:"east301/ssh-config.sh", if:"[ -f ~/.ssh/Makefile ]"
 
 zplug "S1cK94/minimal", as:plugin, do:"chmod +x *.zsh*", of:"*.zsh*"
 
