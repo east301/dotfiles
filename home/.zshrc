@@ -17,14 +17,20 @@ add_to_path $HOME/local/bin
 # oh-my-zsh
 # ================================================================================
 
-plugins=(
-    "git" "common-aliases" "django" "docker-compose" "docker" "extract" "git"
-    "npm" "nyan" "osx" "pip" "python" "rsync" "ruby" "screen" "vagrant"
-)
-
-for plugin in $plugins; do
-    zplug "plugins/$plugin", from:oh-my-zsh
-done
+zplug_omz_plugin "common-aliases"
+zplug_omz_plugin "docker-compose", "which docker-compose"
+zplug_omz_plugin "docker",         "which docker"
+zplug_omz_plugin "extract"
+zplug_omz_plugin "git"
+zplug_omz_plugin "npm",            "which npm"
+zplug_omz_plugin "nyan"
+zplug_omz_plugin "osx",            "[[ $OSTYPE == *darwin* ]]"
+zplug_omz_plugin "pip"
+zplug_omz_plugin "python"
+zplug_omz_plugin "rsync"
+zplug_omz_plugin "ruby",           "which ruby"
+zplug_omz_plugin "screen",         "which screen"
+zplug_omz_plugin "vagrant",        "which vagrant"
 
 
 # ================================================================================

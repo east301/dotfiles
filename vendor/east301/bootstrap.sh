@@ -20,6 +20,10 @@ function add_to_path () {
 # zplug
 # ================================================================================
 
+function zplug_omz_plugin () {
+    zplug "plugins/$1", from:oh-my-zsh, if:"${2:-true}"
+}
+
 function zplug_local_plugin () {
     zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:plugin, of:$1, if:"${2:-true}"
 }
