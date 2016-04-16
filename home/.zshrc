@@ -43,6 +43,7 @@ zplug_local_command "git/diff-highlight"
 
 zplug_local_plugin "east301/ssh-config.sh", "[ -f ~/.ssh/Makefile ]"
 zplug_local_plugin "east301/macports.sh",   "[[ $OSTYPE == *darwin* ]]"
+zplug_local_plugin "east301/git.sh"
 zplug_local_plugin "east301/direnv.sh",     "which direnv"
 zplug_local_plugin "east301/peco.sh",       "which peco"
 zplug_local_plugin "east301/python.sh",     "which python || which python2 || which python3"
