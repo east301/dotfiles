@@ -41,6 +41,7 @@ zplug "S1cK94/minimal", as:plugin, do:"chmod +x *.zsh*", of:"*.zsh*"
 
 zplug_local_command "git/diff-highlight"
 
+zplug_local_plugin "east301/rm.sh"
 zplug_local_plugin "east301/ssh-config.sh", "[ -f ~/.ssh/Makefile ]"
 zplug_local_plugin "east301/macports.sh",   "[[ $OSTYPE == *darwin* ]]"
 zplug_local_plugin "east301/git.sh"
