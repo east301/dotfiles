@@ -37,7 +37,7 @@ zplug_omz_plugin "vagrant",        "which vagrant"
 # custom plugins etc.
 # ================================================================================
 
-zplug "S1cK94/minimal", as:plugin, do:"chmod +x *.zsh*", of:"*.zsh*"
+zplug "S1cK94/minimal", as:plugin, hook-build:"chmod +x *.zsh*", use:"*.zsh*"
 
 zplug_local_command "git/diff-highlight"
 

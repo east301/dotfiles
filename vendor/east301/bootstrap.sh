@@ -25,9 +25,9 @@ function zplug_omz_plugin () {
 }
 
 function zplug_local_plugin () {
-    zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:plugin, of:$1, if:"${2:-true}"
+    zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:plugin, use:$1, if:"${2:-true}"
 }
 
 function zplug_local_command () {
-    zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:command, of:$1, if:"${2:-true}"
+    zplug "~/.homesick/repos/dotfiles/vendor", from:local, as:command, use:$1, if:"${2:-true}"
 }
