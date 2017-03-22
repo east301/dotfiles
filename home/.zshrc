@@ -6,7 +6,7 @@
 # bootstrap
 # ================================================================================
 
-source $HOME/.zplug/init.sh
+source $HOME/.zplug/init.zsh
 source $HOME/.homesick/repos/dotfiles/vendor/east301/bootstrap.sh
 
 add_to_path /opt/local/bin
